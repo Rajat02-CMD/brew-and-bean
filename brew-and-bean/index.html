@@ -4,23 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Brew & Bean</title>
-
-    <!-- Normal CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
-
-    <!-- Tailwind CSS -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-
 <body>
-
-    <!-- Navbar -->
+    <!-- navbar -->
     <header class="nav-bar">
         <nav class="flex items-center justify-between">
 
@@ -44,14 +35,18 @@
     </header>
 
 
-    <!-- Hero -->
+    <!-- hero section -->
+
     <section class="hero-section flex items-center">
 
         <div class="left-hero">
 
+            <small>BREW & BEAN</small>
+
             <h2>
-                Good Coffee <br>
-                <span>Brighter</span> Days
+                Good Coffee.
+                <br>
+                <span>Brighter</span> Days.
             </h2>
 
             <p>
@@ -59,12 +54,13 @@
             </p>
 
             <div class="hero-btn flex items-center gap-3">
-
                 <a href="menu.html" class="main-btn">
                     View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
                 </a>
 
                 <a href="contact.html" class="tp-btn">
+                    <i class="fa-solid fa-location-dot"></i>
                     Visit Us
                 </a>
 
@@ -75,71 +71,153 @@
     </section>
 
 
-    <!-- Highlights -->
+    <!--  highlights -->
+
     <section class="highlights flex items-center justify-between">
 
         <div class="highlight-items flex-1 text-center">
             <i class="fa-solid fa-mug-hot"></i>
             <h3>Premium Coffee</h3>
-            <!-- <p>100% Arabica Beans</p> -->
         </div>
 
         <div class="highlight-items flex-1 text-center">
             <i class="fa-solid fa-leaf"></i>
             <h3>Fresh Ingredients</h3>
-            <!-- <p>Always Fresh & Local</p> -->
         </div>
 
         <div class="highlight-items flex-1 text-center">
             <i class="fa-solid fa-users"></i>
             <h3>Cozy Ambience</h3>
-            <!-- <p>Perfect for Friends & Work</p> -->
         </div>
 
         <div class="highlight-items flex-1 text-center">
             <i class="fa-solid fa-heart"></i>
             <h3>Great Taste</h3>
-            <!-- <p>Loved by our Customers</p> -->
         </div>
 
     </section>
 
-    <!-- specialities -->
+
+    <!--specialities -->
+
     <section class="specialities">
-        <div class="specialities-heading">
+
+        <div class="specialities-heading text-center">
+
             <h2>Our Specialities</h2>
-            <p>Handcrafted with love,served with happiness</p>
+
+            <p>
+                Handcrafted with love, served with happiness
+            </p>
+
         </div>
+
         <div class="speciality-grid grid grid-cols-4 gap-6">
+
+            <!-- Cappuccino -->
             <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
-                <img w-full h-52 object-cover src="images/speciality01.png" alt="" srcset="">
-                <h3>Cappuccino</h3>
-                <p>Rich espresso with steamed milk</p>
-                <span>150</span>
+
+                <img class="w-full h-40 object-cover"
+                    src="images/speciality01.png"
+                    alt="Cappuccino">
+
+                <div class="card-content">
+
+                    <h3>Cappuccino</h3>
+
+                    <p>
+                        Rich espresso with steamed milk
+                    </p>
+
+                    <span>₹150</span>
+
+                </div>
+
             </div>
 
-             <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
-            <img w-full h-52 object-cover src="images/speciality2.png" alt="" srcset="">
-            <h3>Iced Coffee</h3>
-            <p>Chilled coffee blended with ice</p>
-            <span>40</span>
+
+            <!-- Iced Coffee -->
+            <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
+
+                <img class="w-full h-40 object-cover"
+                    src="images/speciality2.png"
+                    alt="Iced Coffee">
+
+                <div class="card-content">
+
+                    <h3>Iced Coffee</h3>
+
+                    <p>
+                        Chilled coffee blended with ice
+                    </p>
+                    <span>₹140</span>
+
+                </div>
+
             </div>
 
-             <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
-            <img w-full h-52 object-cover src="images/speciality03.png" alt="" srcset="">
-            <h3>Chocolate Pastry</h3>
-            <p>Soft pastry with rich chocolate</p>
-            <span>120</span>
+
+            <!-- Chocolate Pastry -->
+            <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
+
+                <img class="w-full h-40 object-cover"
+                    src="images/speciality03.png"
+                    alt="Chocolate Pastry">
+
+                <div class="card-content">
+
+                    <h3>Chocolate Pastry</h3>
+
+                    <p>
+                        Soft pastry with rich chocolate
+                    </p>
+
+                    <span>₹120</span>
+
+                </div>
+
             </div>
 
-             <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
-            <img w-full h-52 object-cover src="images/speciality04.png" alt="" srcset="">
-            <h3>Classic Burger</h3>
-            <p>Juicy burger with fresh ingredients</p>
-            <span>180</span>
-        </div>
+
+            <!-- Classic Burger -->
+            <div class="speciality-card bg-white rounded-2xl overflow-hidden shadow-md">
+
+                <img class="w-full h-40 object-cover"
+                    src="images/speciality04.png"
+                    alt="Classic Burger">
+
+                <div class="card-content">
+
+                    <h3>Classic Burger</h3>
+
+                    <p>
+                        Juicy burger with fresh ingredients
+                    </p>
+
+                    <span>₹180</span>
+
+                </div>
+            </div>
         </div>
     </section>
+        
+    <!-- our story -->
+    <section class="our-story flex items-center gap-10 ">
+
+        <div class="our-story-left w-1/2">
+            <img class="w-full h-90 object-cover " src="images/our-story-img.jpg" alt="">
+        </div>
+
+        <div class="our-story-right w-1/2 flex flex-col gap-6 ">
+            <h3>OUR STORY</h3>
+            <h2>More Than Just Coffee</h2>
+            <p>At Brew & Bean, we believe coffee is more than just a drink — it’s a moment to slow down, connect, and enjoy the little things. From carefully selected beans to freshly prepared bites, everything we serve is made with passion and attention to detail.</p>
+            <a class="self-start" href="about.html">Discover Our Story
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
 
 </body>
 
